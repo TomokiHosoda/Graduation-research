@@ -1,0 +1,247 @@
+.App{
+    width: 100%;
+    height: 100vh;
+}
+  
+.Post{
+  width: 100%;
+  height: 100%;
+  margin-top: 68px;
+  text-align: center;
+  background-color: #95af8b;
+}
+
+.post-title {
+  background-color:rgb(252, 217, 174);
+  font-family:'Courier New', Courier, monospace;
+}
+
+.box-post {
+  height: 50%;
+  margin: 0.6rem;
+  margin-top: 40px;
+  box-shadow: 0 0 0 10px #ca9f7b;
+  border-style: solid dashed;
+  border-width: 5px;
+  border-color: #333;
+  background-color: #ca9f7b;
+}
+
+.Container {
+  width: 50%;
+  height: 50%;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.textarea {
+  text-align: left;
+}
+
+.titlelabel {
+  width: 50%;
+  position: absolute;
+  color: blue;
+  font-size: 30px;
+}
+
+.Title {
+  margin-top: 40px;
+  border-radius: 4px;
+  border: 1px solid #939393;
+  height: 80px;
+  font-size: 30px;
+}
+
+.dropdown {
+  width: 50%;
+  position: relative;
+  left: 100%;
+  top: -120px;
+  margin-left: 30px;
+}
+
+.Bpmlabel {
+  position: absolute;
+  color: blue;
+  font-size: 30px;
+}
+
+.Bpm{
+  margin-top: 40px;
+  height: 80px;
+  border: 1px solid #939393;
+  border-radius: 4px;
+  font-size: 30px;
+}
+
+.Container2 {
+  width: 50%;
+  margin-left: 20px;
+  margin-top: -60px;
+}
+
+.instrument {
+  height: 80px;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+.instrumentlabel {
+  margin-top: -90px;
+  position: absolute;
+  color: blue;
+  font-size: 30px;
+}
+
+.select {
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.Genre {
+  height: 80px;
+  margin-top: 50px;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+.genrelabel {
+  margin-top: -90px;
+  position: absolute;
+  color: blue;
+  font-size: 30px;
+}
+
+.select2 {
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.Comment {
+  text-align: left;
+  position: relative;
+  left: 100%;
+  top: -200px;
+  margin-left: 30px;
+}
+
+.commentlabel {
+  margin-top: -40px;
+  position: absolute;
+  color: blue;
+  font-size: 30px;
+}
+
+.Comment-form {
+  width: 90%;
+  height: 200px;
+  border-radius: 4px;
+  font-size: 30px;
+}
+
+.dropcontainer {
+  margin: 2em 0;
+  background: #f1f1f1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
+}
+.dropcontainer .dropcontainer-title {
+  font-size: 30px;
+  background: #5fc2f5;
+  padding: 4px;
+  text-align: center;
+  color: #FFF;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.center {
+  padding: 40px;
+}
+
+.DropzoneContainer {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  margin: 0 auto;
+  cursor: pointer;
+  width: 100%;
+  height: 250px;
+}
+
+.DropzoneContainer p {
+  margin-top: 50px;
+}
+
+.Container4 {
+  padding: auto;
+}
+
+.waveformlabel {
+  color: blue;
+  font-size: 40px;
+}
+
+.Waveform {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 20px;
+  border: 3px solid #111111;
+  border-radius: 4px;
+}
+
+.check {
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 30px;
+  margin-left: 5%;
+  text-align: left;
+}
+
+.handleplay {
+  margin-left: auto;
+  background-color: #44c1ea;
+  width: 120px;
+  height: 60px;
+  border-radius: 10px;
+  border: solid 2px #46595a;
+  color: rgb(55, 44, 61);
+  font-size: 30px;
+  cursor:pointer;
+}
+
+.box-post2 {
+  padding: 0.5em 1em;
+  color: #353741;
+  background: rgb(209, 224, 245);
+  border-top: solid 10px #5d627b;
+  border-bottom: solid 10px #5d627b;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+
+.PostButton{
+  background-color: #ff7300;
+  width: 300px;
+  height: 80px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 30px;
+  color: rgb(55, 44, 61);
+  font-size: 30px;
+  cursor:pointer;
+  border: solid 2px #46595a;
+}
+
+.filename {
+  font-size: 25px;
+  color:rgb(45, 75, 222);
+}
