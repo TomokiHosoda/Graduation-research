@@ -1,0 +1,293 @@
+.App{
+    width: 100%;
+    height: 100vh;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.Request{
+  width: 100%;
+  height: 100vh;
+  margin-top: 68px;
+  text-align: center;
+  background-color: #95af8b;
+}
+
+.request-title {
+  background-color:rgb(252, 217, 174);
+  font-family:'Courier New', Courier, monospace;
+}
+
+.button-container {
+  margin-top: 10px;
+}
+
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #3498db;
+  color: #3498db;
+  background-color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  &:hover {
+    background-color: #3498db;
+    color: #fff;
+  }
+}
+
+.post-block {
+  cursor: pointer;
+  border: 2px solid #202020;
+  padding: 15px;
+  margin: 15px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.3s;
+  background-color: antiquewhite;
+}
+
+.post-block:hover {
+  background-color: rgb(146, 255, 240);
+}
+
+.post-block .user-info {
+  display: none;
+}
+
+.post-block .user-info img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-block p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.post-block .user-info {
+  display: flex;
+  align-items: center;
+}
+
+.list-request {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 40px;
+  background-color: rgb(158, 228, 204);
+}
+
+.list-header-request {
+  text-align: left;
+  border-bottom: 2px solid #202020;
+}
+
+.box {
+  position: relative;
+  margin: 2em 0;
+  padding: 0.5em 1em;
+  border: solid 6px #46595a;
+  background-color: #dfd58b;
+}
+
+.content {
+  position: absolute;
+    display: inline-block;
+    top: -50px;
+    left: -6px;
+    padding: 0 9px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    background: #90ec94;
+    color: #000000;
+    border: solid 3px #46595a;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+}
+
+.content2 {
+  margin-top: 0;
+}
+
+.content3 {
+  margin-top: 0;
+}
+
+.DropzoneContainer {
+  margin: 0 auto;
+}
+
+.title-content{
+  display: flex;
+  align-items: center;
+}
+
+.instrument-content{
+  text-align:left;
+  display: flex;
+  margin: 0 auto;
+}
+
+.genre-content{
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.bpm-content {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.comment-content {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.instrument-post {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.genre{
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.bpm {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.comment {
+  display: flex;
+  height: 80px;
+  align-items: center;
+}
+
+.title-header { 
+  color: blue;
+  font-size: 35px;
+}
+
+.instrument-header {
+  color: blue;
+  font-size: 30px;
+}
+
+.genre-header {
+  color: blue;
+  font-size: 30px;
+}
+
+.bpm-header {
+  color: blue;
+  font-size: 30px;
+}
+
+.comment-header {
+  color: blue;
+  font-size: 30px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.download-button {
+  display: inline-block;
+  background-color: #4c78af;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.send-comment {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.send-commenttitle {
+  display: flex;
+  padding: 10px;
+  font-size:30px;
+  color:#db8d34;
+  font-weight: bold;
+}
+
+.filename {
+  margin-top: 20px;
+}
+
+.send-button {
+  display: inline-block;
+  background-color: #4c78af;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.wavefrom {
+  margin-top: 20px;
+  border: 50px solid #000000;
+  border-radius: 4px;
+}
+
+.box2 {
+  margin: 2em 0;
+  background: #f1f1f1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
+}
+.box-title {
+  font-size: 30px;
+  background: #5fc2f5;
+  padding: 4px;
+  text-align: center;
+  color: #FFF;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}

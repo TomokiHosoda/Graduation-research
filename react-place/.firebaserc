@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "login-react-app-e588f",
+    "staging": "login-react-app-e588f"
+  },
+  "targets": {},
+  "etags": {}
+}
